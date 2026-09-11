@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+import { useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
@@ -7,43 +9,52 @@ import { useGSAP } from "@gsap/react";
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 export function HeroMotion() {
+  const root = useRef<HTMLDivElement | null>(null);
   useGSAP(() => {
-    const mm = gsap.matchMedia();
-    mm.add("(prefers-reduced-motion: no-preference)", () => {
-      const root = document.querySelector(".hero");
-      if (!root) return;
-      const image = root.querySelector(".hero-media img");
-      const titleLines = root.querySelectorAll(".hero-title .line span");
-      const divider = root.querySelector(".hero-divider");
-      const actions = root.querySelector(".hero-actions");
+    const el = document.querySelector(".hero");
+    if (!el || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const ctx = gsap.context(() => {
+      const image = el.querySelector(".hero-media img");
+      const titleLines = el.querySelectorAll(".hero-title .line span");
+      const divider = el.querySelector(".hero-divider");
+      const actions = el.querySelector(".hero-actions");
       const tl = gsap.timeline({ defaults: { ease: "power2.out" } });
-      if (image) tl.fromTo(image, { scale: 1.04, clipPath: "inset(6% 4% 6% 4%)" }, { scale: 1, clipPath: "inset(0% 0% 0% 0%)", duration: 1.6 }, 0);
-      if (titleLines?.length) tl.fromTo(titleLines, { yPercent: 105, opacity: 0 }, { yPercent: 0, opacity: 1, duration: 0.75, stagger: 0.08 }, 0.7);
-      if (divider) tl.fromTo(divider, { scaleX: 0, transformOrigin: "left center" }, { scaleX: 1, duration: 0.55 }, "-=0.25");
-      if (actions) tl.fromTo(actions, { y: 16, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5 }, "-=0.1");
-      return () => tl.kill();
-    });
-    return () => mm.revert();
-  });
-  return null;
+      if (image) tl.fromTo(image, { scale: 1.04, clipPath: "inset(5% 3% 5% 3%)" }, { scale: 1, clipPath: "inset(0% 0% 0% 0%)", duration: 1.25 }, 0);
+      if (titleLines.length) tl.fromTo(titleLines, { yPercent: 110, opacity: 0 }, { yPercent: 0, opacity: 1, duration: 0.72, stagger: 0.08 }, 0.5);
+      if (divider) tl.fromTo(divider, { scaleX: 0 }, { scaleX: 1, duration: 0.45 }, "-=0.18");
+      if (actions) tl.fromTo(actions, { y: 12, opacity: 0 }, { y: 0, opacity: 1, duration: 0.45 }, "-=0.08");
+      if (image) gsap.to(image, { scale: 1.012, duration: 7, repeat: -1, yoyo: true, ease: "sine.inOut", delay: 1.6 });
+    }, root);
+    return () => ctx.revert();
+  }, { scope: root });
+  return <span ref={root} className="motion-anchor" aria-hidden="true" />;
 }
 
 export function LandscapeMotion({ target = "img" }: { target?: string }) {
   useGSAP(() => {
-    const mm = gsap.matchMedia();
-    mm.add("(prefers-reduced-motion: no-preference) and (min-width: 761px)", () => {
-      const root = document.querySelector(".landscape");
-      const img = root?.querySelector(target);
-      if (!root || !img) return;
-      const tween = gsap.to(img, {
-        yPercent: -2,
-        scale: 1.015,
-        ease: "none",
-        scrollTrigger: { trigger: root, start: "top bottom", end: "bottom top", scrub: 1 },
-      });
-      return () => tween.scrollTrigger?.kill();
-    });
-    return () => mm.revert();
+    const root = document.querySelector(".landscape");
+    if (!root || window.matchMedia("(prefers-reduced-motion: reduce)").matches || window.innerWidth < 761) return;
+    const img = root.querySelector(target);
+    if (!img) return;
+    const ctx = gsap.context(() => {
+      gsap.to(img, { yPercent: -2, scale: 1.015, ease: "none", scrollTrigger: { trigger: root, start: "top bottom", end: "bottom top", scrub: 1 } });
+    }, root);
+    return () => ctx.revert();
   });
   return null;
+}
+
+export function ParallaxImage({ src, alt }: { src: string; alt: string }) {
+  const ref = useRef<HTMLDivElement | null>(null);
+  useGSAP(() => {
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (!ref.current || reduce || window.innerWidth < 761) return;
+    const ctx = gsap.context(() => {
+      const image = ref.current?.querySelector("img");
+      if (!image) return;
+      gsap.fromTo(image, { yPercent: 2, scale: 1.02 }, { yPercent: -2, scale: 1.015, ease: "none", scrollTrigger: { trigger: ref.current, start: "top bottom", end: "bottom top", scrub: 1 } });
+    }, ref);
+    return () => ctx.revert();
+  }, { scope: ref });
+  return <div className="parallax-media" ref={ref}><Image src={src} alt={alt} fill sizes="(min-width: 900px) 25vw, 80vw" /></div>;
 }

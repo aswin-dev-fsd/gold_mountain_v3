@@ -6,14 +6,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "audit": "node scripts/audit-production.mjs && node scripts/audit-source-alignment.mjs && node scripts/audit-links.mjs && node scripts/audit-static.mjs && node scripts/audit-assets.mjs",
+    "audit:syntax": "node scripts/audit-syntax.mjs",
+    "check": "npm run typecheck && npm run audit:syntax && npm run audit",
+    "prebuild": "node scripts/prebuild-check.mjs",
+    "audit:alignment": "node scripts/audit-source-alignment.mjs"
   },
   "dependencies": {
+    "@gsap/react": "2.1.2",
     "gsap": "3.15.0",
-    "next": "16.3.4",
+    "next": "^16.3.4",
     "react": "19.2.8",
-    "react-dom": "19.2.8",
-    "@gsap/react": "2.1.2"
+    "react-dom": "19.2.8"
   },
   "devDependencies": {
     "@types/node": "^20.19.0",

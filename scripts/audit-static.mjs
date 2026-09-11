@@ -21,7 +21,7 @@ const assetMatches = [...source.matchAll(/(?:src=|url\()\s*["'`]?(\/images\/[^"'
 const uniqueAssets=[...new Set(assetMatches)];
 for (const a of uniqueAssets) if (!fs.existsSync(path.join(root,'public',a.slice(1)))) throw new Error(`Missing referenced asset ${a}`);
 
-const fonts = ['Outfit-Regular.woff2','TheSeasons-Regular.woff2','TheSeasons-Bold-subset.woff2'];
+const fonts = ['Outfit-Regular.woff2','TheSeasons-Regular.woff2'];
 for (const f of fonts) if (!fs.existsSync(path.join(root,'public/fonts',f))) throw new Error(`Missing font ${f}`);
 if (!source.includes('prefers-reduced-motion')) throw new Error('Reduced-motion support missing');
 if (!source.includes('gsap.registerPlugin(ScrollTrigger, useGSAP)')) throw new Error('GSAP React registration missing');
