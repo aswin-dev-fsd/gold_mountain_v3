@@ -1,0 +1,17 @@
+{
+  "verification-reminder": {
+    "enabled": false,
+    "PostToolUse": [
+      {
+        "matcher": "run_command",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ./scripts/verification-reminder.mjs",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

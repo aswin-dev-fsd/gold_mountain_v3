@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "aswin-dev-forge",
+  "description": "A conservative, verification-first engineering plugin for full-stack development, especially React, Next.js, TypeScript, Python, Java, APIs, testing, security, Git, UI, and AI-assisted development."
+}
