@@ -1,0 +1,53 @@
+CREATE REUSABLE COMPONENTS
+
+All components must follow the FINAL_IMPLEMENTATION_GUIDE.txt and Master prompt.
+
+1. Header
+2. Mobile Navigation
+3. Footer
+4. Primary Button
+5. Secondary Button
+6. WhatsApp CTA
+7. Enquiry CTA
+8. Editorial Image/Text Section
+9. Image Gallery / Story Rail
+10. Room / Stay Item
+11. Wellness Offering
+12. Experience Block
+13. Blog Card
+14. Testimonial
+15. Pricing / Wellness Package Block
+16. Enquiry Form
+17. Section Heading
+18. Location Block
+19. Breadcrumb
+20. Image Reveal Animation
+21. FAQ Accordion
+22. Timeline / Day-at-Gold-Mountain Block
+
+DESIGN CONSISTENCY
+- Use only #F7F3EA, #214D33, #C49A3A and #8F2D24.
+- Use Outfit + The Seasons.
+- Do not use blue/neon presentation colours.
+- Do not turn every component into a card.
+- Prefer editorial composition, whitespace and photography.
+
+INTERACTION
+- Buttons use subtle hover/focus states.
+- Image reveals use transform/opacity/clip-path where practical.
+- Complex scroll sequences use GSAP + ScrollTrigger only when justified.
+- Respect prefers-reduced-motion.
+- Mobile must have a non-drag/non-pinned equivalent for interactive content.
+
+ACCESSIBILITY
+- Semantic HTML first.
+- Keyboard reachable controls.
+- Visible focus states.
+- Explicit form labels and useful errors.
+- Pointer targets >= 24x24 CSS px where applicable.
+- Do not rely on colour alone to convey meaning.
+- Avoid focus being hidden behind sticky/floating UI.
+
+CONTENT
+- Never invent room details, prices, amenities, reviews, credentials or health claims.
+- Use placeholders where client content is missing.

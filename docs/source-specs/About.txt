@@ -1,0 +1,72 @@
+BUILD PAGE: ABOUT
+
+PURPOSE:
+
+Humanize the brand and introduce the people and philosophy behind Gold Mountain.
+
+Do not make this page overly corporate.
+
+--------------------------------------------------
+HERO
+--------------------------------------------------
+
+Headline:
+
+A place created with purpose.
+
+--------------------------------------------------
+ABOUT GOLD MOUNTAIN
+--------------------------------------------------
+
+Explain the story of the resort.
+
+Keep it authentic and simple.
+
+Do not invent history.
+
+--------------------------------------------------
+FOUNDER
+--------------------------------------------------
+
+Founder profile.
+
+Include:
+- Founder image
+- Name
+- Short biography
+- Vision
+- Why Gold Mountain exists
+
+CONTENT MUST COME FROM CLIENT.
+
+If missing:
+
+[FOUNDER PROFILE TO BE PROVIDED]
+
+--------------------------------------------------
+PHILOSOPHY
+--------------------------------------------------
+
+Explain:
+
+Nature
+Wellness
+Food
+Traditional knowledge
+Hospitality
+Arunachala
+
+--------------------------------------------------
+LOCATION
+--------------------------------------------------
+
+Connect the story to Arunachala and the surrounding landscape.
+
+--------------------------------------------------
+FINAL CTA
+--------------------------------------------------
+
+Come experience Gold Mountain.
+
+CTA:
+Explore the Resort

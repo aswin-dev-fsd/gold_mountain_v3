@@ -1,0 +1,92 @@
+STRICT IMPLEMENTATION RULES
+
+SOURCE OF TRUTH
+1. Brand Identity PDF controls logo, brand colours and typography direction.
+2. Master prompt + FINAL_IMPLEMENTATION_GUIDE.txt control website implementation.
+3. Page TXT files control page-specific content/structure.
+4. 01_ARCHITECTURE_STRATEGY_REFERENCE_ONLY.pdf is strategy reference only; do not copy its blue/neon presentation palette into the website.
+
+COLOUR — DO NOT CHANGE
+Use these exact values:
+- Ivory #F7F3EA
+- Green #214D33
+- Gold #C49A3A
+- Red #8F2D24
+
+Do not introduce blue, neon yellow, purple, gradients, or another palette.
+
+TYPOGRAPHY
+Use:
+- Outfit (brand guide label: "Outfit (Garet Alf)") as primary
+- The Seasons as secondary/editorial
+
+Do not substitute Garet Sans as the primary website font.
+Do not implement the brand guide's -60% letter-spacing literally. Start near -0.03em for H1 and tune visually.
+
+DESIGN
+- Premium editorial hospitality
+- Warm ivory + deep green foundation
+- Gold/red restrained
+- Large natural photography
+- Generous whitespace
+- Fine lines
+- Asymmetry used carefully
+- Minimal cards
+- No glassmorphism
+- No loud glow effects
+- No neon presentation-deck styling
+
+ANIMATION
+Animations are encouraged, but they must be calm, cinematic and meaningful.
+Preferred:
+- Arunachala hero reveal
+- Slow depth/parallax
+- Healing journey scroll sequence
+- Living typography
+- Farm-to-table transition
+- Interactive Journey selection
+- Property walkthrough
+- Horizontal experience narrative
+- Day-at-Gold-Mountain timeline
+- Subtle CTA hover/magnetic effects
+
+Use GSAP/ScrollTrigger only where it adds real value. Prefer transform/opacity animation. Honor prefers-reduced-motion and simplify complex motion on mobile.
+
+CONTENT SAFETY
+Do not invent rooms, prices, practitioners, certifications, awards, facilities, testimonials, medical claims, availability, package durations or founder achievements.
+Use [CONTENT TO BE PROVIDED BY CLIENT] and [PRICE TO BE PROVIDED] where needed.
+
+BOOKING
+This is enquiry-first, not live booking:
+- Primary: WhatsApp
+- Secondary: Email
+- Optional verified phone
+
+Never create fake calendars, inventory, payments or booking confirmations.
+
+PRODUCT TERMS
+Keep these distinct:
+Short Stay = flexible accommodation
+Wellness Stay = accommodation + flexible wellness experiences
+Monthly Stay = longer accommodation
+Wellness Package = structured confirmed programme
+
+ACCESSIBILITY / PERFORMANCE
+Build toward WCAG 2.2 AA quality:
+- keyboard navigation
+- visible focus
+- semantic HTML
+- proper labels
+- useful form errors
+- target sizes >= 24x24 CSS px where applicable
+- adequate text contrast
+- reduced motion
+- no focus hidden by sticky UI
+
+Use WOFF2, font-display: swap, responsive images, dimensions/aspect-ratio reservations, optimized AVIF/WebP, and lightweight animation.
+
+Do not improvise the design direction.
+Do not add sections simply to fill space.
+Do not redesign the logo.
+Do not change the content strategy.
+Do not turn the site into a generic booking engine or Ayurveda clinic.

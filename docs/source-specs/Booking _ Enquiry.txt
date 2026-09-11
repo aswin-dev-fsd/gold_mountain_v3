@@ -1,0 +1,67 @@
+BUILD PAGE: BOOK / ENQUIRE
+
+PURPOSE:
+Create a premium enquiry experience rather than a conventional live booking engine.
+
+--------------------------------------------------
+HERO
+--------------------------------------------------
+Headline:
+Your stay begins with a conversation.
+
+Supporting copy:
+Tell us when you'd like to visit, what you're looking for and how we can make your stay meaningful.
+
+--------------------------------------------------
+FORM
+--------------------------------------------------
+Name *
+Email *
+WhatsApp / Phone
+Preferred arrival date
+Preferred departure date
+Number of guests
+Interested in:
+
+Stay
+Wellness
+Ayurveda
+Monthly Stay
+Other
+
+Message
+
+CTA:
+Send Enquiry
+
+--------------------------------------------------
+DIRECT CONTACT
+--------------------------------------------------
+WhatsApp:
+Chat with us
+
+Email:
+Send us an email
+
+Phone:
+Call us (verified client number only)
+
+--------------------------------------------------
+IMPORTANT
+--------------------------------------------------
+Do not create:
+- Fake availability
+- Payment gateway
+- Fake room inventory
+- Automatic booking confirmation
+- Calendar availability
+- Fake package availability
+
+The enquiry is submitted first.
+
+The Gold Mountain team confirms availability and pricing directly.
+
+SUCCESS STATE:
+"Thank you. Your enquiry has been received. The Gold Mountain team will get back to you with availability and pricing."
+
+This is an enquiry acknowledgement, not a booking confirmation.

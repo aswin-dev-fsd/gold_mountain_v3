@@ -1,0 +1,96 @@
+BUILD PAGE: STAY
+
+PURPOSE:
+Sell the accommodation experience without turning the website into a generic hotel booking platform.
+
+--------------------------------------------------
+HERO
+--------------------------------------------------
+Headline:
+A peaceful place to stay.
+
+Supporting copy:
+Comfortable spaces surrounded by nature, created for rest and reconnection.
+
+--------------------------------------------------
+ROOMS
+--------------------------------------------------
+Use only confirmed room categories.
+
+For each room:
+Room name
+Photography
+Short description
+Confirmed amenities only
+Confirmed capacity only
+Price if available and approved
+Enquire
+
+CTA:
+Enquire About This Room
+
+Do not create live availability.
+Do not invent room categories, capacities, amenities or prices.
+
+--------------------------------------------------
+STAY TYPES
+--------------------------------------------------
+Keep these distinct:
+
+SHORT STAY
+Flexible accommodation for guests who want a simple stay and freedom to explore.
+
+WELLNESS STAY
+Accommodation combined with confirmed wellness experiences.
+
+MONTHLY STAY
+Longer accommodation option; details only when confirmed.
+
+WELLNESS PACKAGE
+Structured programme with confirmed duration, inclusions and price. Do not confuse this with a room/stay type.
+
+--------------------------------------------------
+MONTHLY STAYS
+--------------------------------------------------
+Headline:
+Stay a little longer.
+
+Use actual package/inventory information once provided.
+
+CTA:
+Ask About Monthly Stay
+
+--------------------------------------------------
+AMENITIES
+--------------------------------------------------
+Only publish amenities verified by the client/current property information.
+
+The earlier website listed examples such as:
+- Room service
+- Dining area
+- Free parking
+- Air conditioning
+- High-speed Wi-Fi
+- CCTV
+- 24-hour front desk
+
+Treat this list as UNCONFIRMED until production approval. Do not silently promote it to confirmed content.
+
+--------------------------------------------------
+PRACTICAL INFORMATION
+--------------------------------------------------
+Help international visitors understand:
+- How the enquiry process works
+- What information they should provide
+- Getting to the property
+- What to expect before arrival
+
+Do not invent travel times or transport arrangements.
+
+--------------------------------------------------
+FINAL CTA
+--------------------------------------------------
+Plan your stay at Gold Mountain.
+
+Primary: WhatsApp
+Secondary: Email

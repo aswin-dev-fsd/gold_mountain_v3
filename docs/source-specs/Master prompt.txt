@@ -1,0 +1,659 @@
+PROJECT NAME:
+Gold Mountain Wellness Resort
+
+PROJECT TYPE:
+Premium international-facing wellness resort website
+
+SOURCE-OF-TRUTH ORDER:
+1. Supplied Gold Mountain brand identity PDF = brand foundation (logo, colours, typography direction)
+2. This Master prompt + FINAL_IMPLEMENTATION_GUIDE.txt = implementation rules
+3. Page-specific TXT files = page content/structure
+4. 01_ARCHITECTURE_STRATEGY_REFERENCE_ONLY.pdf = strategy reference only; its presentation graphics are NOT the website colour system
+
+PRIMARY GOAL:
+Design and develop a premium, calm, editorial-style website for Gold Mountain Wellness Resort in Tiruvannamalai, Tamil Nadu, India.
+
+The website must position Gold Mountain primarily as a WELLNESS RESORT.
+
+It must NOT feel like:
+- An Ayurveda clinic
+- An Ayurveda treatment centre
+- A retreat-only business
+- A generic hotel website
+- A spiritual organization
+- A medical website
+- A typical Indian resort booking website
+- A generic wellness template
+
+The experience should communicate:
+
+RESORT + NATURE + WELLNESS + FOOD + LOCATION + EXPERIENCE
+
+with wellness as the strongest supporting proposition and the resort environment as the foundation.
+
+--------------------------------------------------
+1. BRAND POSITIONING
+--------------------------------------------------
+
+Gold Mountain Wellness Resort is a peaceful wellness resort located in the natural and spiritual surroundings of Arunachala, Tiruvannamalai.
+
+The core idea is:
+
+"Heal the body and mind through traditional therapy and healthy food amidst nature, in the presence of divine Arunachala."
+
+Treat this as brand/strategy language, not a guaranteed medical outcome. Do not convert it into a promise of treating, curing, preventing, or restoring a medical condition.
+
+Guests come to Gold Mountain not only for Ayurveda or treatments, but to stay, slow down, reconnect with nature, experience the location, eat well and explore wellness at their own pace.
+
+The resort itself is the destination.
+
+Wellness is part of the experience.
+
+Ayurveda is an important offering, but it should NOT dominate the entire brand.
+
+--------------------------------------------------
+2. TARGET AUDIENCE
+--------------------------------------------------
+
+PRIMARY AUDIENCE:
+
+International guests looking for:
+- A peaceful wellness-oriented stay in India
+- Nature
+- Traditional Indian wellness practices
+- Ayurveda
+- Healthy food
+- Spiritual surroundings
+- A meaningful travel experience
+- Comfortable accommodation
+- A slower and more intentional stay
+
+SECONDARY AUDIENCE:
+
+Indian guests looking for:
+- Wellness stays
+- Peaceful accommodation
+- Ayurveda
+- Nature
+- Spiritual experiences around Arunachala
+- Longer stays
+- Healthy food
+- Rest and rejuvenation
+
+The website must be understandable to someone who has never heard of Gold Mountain or Tiruvannamalai.
+
+Avoid assuming the visitor already understands Ayurveda, Arunachala or Indian spiritual practices.
+
+Explain things simply and respectfully.
+
+--------------------------------------------------
+3. CONTENT PRIORITY
+--------------------------------------------------
+
+The website content hierarchy follows this approximate strategic weighting:
+
+50% — WELLNESS
+20% — LOCATION
+15% — FOOD / DINING
+10% — RESORT / STAY
+5% — BRAND STORY
+
+These percentages describe strategic content priority, NOT literal screen area, page count, card count or word count.
+
+Wellness includes:
+- Ayurveda
+- Traditional therapies
+- Meditation
+- Yoga / yogic practices
+- Healthy lifestyle
+- Food and nourishment
+- Nature
+- Mind-body wellbeing
+- Rest and daily rhythm
+
+Do not make the website look like 50% of the screen is Ayurveda.
+
+--------------------------------------------------
+4. CORE MESSAGE
+--------------------------------------------------
+
+The main strategic statement is:
+
+"Healing the body and mind through traditional therapy and healthy food amidst nature, in the presence of divine Arunachala."
+
+Use this idea throughout the website without repeating the exact sentence excessively.
+
+The website should make visitors understand:
+
+COME FOR THE PLACE.
+STAY FOR THE EXPERIENCE.
+DISCOVER WELLNESS.
+LEAVE FEELING RESTORED.
+
+These lines are strategic direction and should not be repeated mechanically as visible copy.
+
+--------------------------------------------------
+5. LOCATION STORY
+--------------------------------------------------
+
+Location is a major part of the brand.
+
+Use only client-confirmed geography. The architecture strategy describes:
+- Arunachala to the East
+- Parvati Malai mountain stretch to the West
+- Resort/farm land surrounded by nature
+- Relationship to Tiruvannamalai and Arunachaleswarar Temple
+- Peaceful natural surroundings
+
+Do not invent geographical facts.
+Do not exaggerate views.
+Do not claim a direct mountain view unless confirmed for that page/property view.
+
+--------------------------------------------------
+6. VISUAL DIRECTION
+--------------------------------------------------
+
+The website must feel:
+
+MINIMAL
+LUXURIOUS
+CALM
+EDITORIAL
+NATURAL
+PREMIUM
+INTERNATIONAL
+WARM
+TIMELESS
+
+VISUAL SOURCE-OF-TRUTH:
+Use the supplied brand identity colours exactly:
+- Warm Ivory: #F7F3EA
+- Forest Green: #214D33
+- Gold: #C49A3A
+- Deep Red: #8F2D24
+
+DO NOT change these four hex values and DO NOT introduce a replacement palette.
+
+Colour application:
+- Ivory = primary background / negative space
+- Green = primary text, navigation, major sections, primary buttons
+- Gold = logo accents, dividers, decorative lines, selective display accents, premium highlights
+- Red = very restrained supporting accent only
+
+Accessibility rule:
+- Do not use Gold #C49A3A as normal-sized body text on Ivory #F7F3EA.
+- Do not use Red #8F2D24 as text on Green #214D33.
+- Use Green or Red text on Ivory where readable contrast is required.
+- Use Gold primarily as an accent, not as the default body-text colour.
+
+The visual direction should be closer to a premium editorial hospitality website than a conventional hotel template.
+
+Use:
+- Large photography
+- Generous whitespace
+- Elegant typography
+- Strong visual hierarchy
+- Editorial layouts
+- Asymmetrical compositions where useful
+- Large headings
+- Short paragraphs
+- Fine divider lines
+- Subtle icons
+- Organic shapes used sparingly
+- Restrained decorative elements
+- Natural photography
+
+Avoid:
+- Neon colours
+- Blue/yellow presentation-deck styling
+- Excessive cards
+- Heavy shadows
+- Glassmorphism
+- Excessive gradients
+- Overly rounded UI everywhere
+- Huge icon grids
+- Generic wellness illustrations
+- Stock-looking imagery
+- Overuse of gold
+- Constant floating elements
+- Motion for decoration without purpose
+
+IMPORTANT:
+The blue/neon-yellow graphics shown in the architecture reference are presentation graphics only. They are NOT the website palette and must not be implemented.
+
+--------------------------------------------------
+7. TYPOGRAPHY
+--------------------------------------------------
+
+PRIMARY TYPEFACE:
+Outfit (the supplied brand guide labels this as "Outfit (Garet Alf)").
+
+Use the approved primary typeface for:
+- Main headings
+- Navigation
+- Buttons
+- Labels
+- UI
+- Body copy where appropriate
+
+SECONDARY TYPEFACE:
+The Seasons
+
+Use The Seasons for:
+- Editorial statements
+- Supporting headings
+- Quotes
+- Selected display text
+- Emotional brand moments
+
+TYPOGRAPHY RULE:
+Do NOT use Garet Sans as a separate replacement family. The earlier architecture document's Garet/Aileron treatment is superseded for website implementation by the supplied brand identity direction: Outfit + The Seasons.
+
+Tracking correction:
+The brand PDF contains very aggressive "-60%" tracking notes for H1/H2. Do NOT literally implement -60% CSS letter-spacing; that would materially damage readability. Treat the notation as a design reference requiring visual tuning.
+
+Recommended implementation starting points:
+- H1: letter-spacing: -0.03em
+- H2: letter-spacing: -0.025em
+- H3: letter-spacing: -0.01em
+- Body: letter-spacing: 0
+- Accent/editorial: letter-spacing: 0 to -0.01em
+
+Tune only after visual QA.
+
+Font implementation:
+- Prefer WOFF2 web fonts.
+- Use font-display: swap.
+- Preload only the most important above-the-fold font assets.
+- Match fallback metrics carefully to reduce layout shift.
+- Do not embed random fonts from the web.
+- Confirm webfont licensing before production deployment.
+
+--------------------------------------------------
+8. LOGO
+--------------------------------------------------
+
+Use the APPROVED Gold Mountain Wellness Resort logo assets supplied with this package.
+
+Do not redesign, stretch, recolour, distort or add effects to the logo.
+
+Respect the clear-space and minimum-size rules in the supplied brand identity document.
+
+Do not place the logo directly over busy photography without an appropriate quiet area or treatment.
+
+--------------------------------------------------
+9. UI STYLE
+--------------------------------------------------
+
+Premium editorial hospitality UI.
+
+Preferred characteristics:
+- Full-width photography
+- Split-screen sections
+- Editorial text/image layouts
+- Large typography
+- Minimal navigation
+- Fine borders
+- Thin dividers
+- Subtle hover interactions
+- Scroll-based image movement
+- Gentle fade/slide reveals
+- Image reveals
+- Smooth transitions
+
+The website SHOULD use high-quality animation, but animation must feel calm and intentional.
+
+Use motion to communicate:
+- Place
+- Time
+- Nature
+- Flow
+- Discovery
+- Transformation
+
+Do not animate every element.
+
+--------------------------------------------------
+10. NAVIGATION & CONVERSION
+--------------------------------------------------
+
+PRIMARY NAVIGATION:
+Home
+Wellness
+Stay
+Experience
+About
+Blog
+Contact
+
+GLOBAL PRIMARY CTA:
+Book / Enquire
+
+Do not use BOOK NOW as if instant booking exists.
+
+CONVERSION MODEL:
+- Primary enquiry channel: WhatsApp
+- Secondary enquiry channel: Email
+- Optional phone contact only when a verified client number is available
+
+"Plan Your Stay" may be used as a secondary CTA in storytelling sections.
+"Enquire on WhatsApp" is the primary action on conversion-focused sections.
+
+Do not add Gallery as primary navigation.
+
+--------------------------------------------------
+11. STAY / PACKAGE TAXONOMY
+--------------------------------------------------
+
+These terms must NOT be treated as interchangeable:
+
+SHORT STAY
+Accommodation-focused visit for guests who want a flexible stay and may explore the property/local area.
+
+WELLNESS STAY
+Accommodation combined with flexible wellness experiences such as confirmed Ayurveda, yoga or meditation options.
+
+MONTHLY STAY
+Longer accommodation-focused stay with the details confirmed by the client.
+
+WELLNESS PACKAGE
+A defined, structured programme with a confirmed duration and confirmed inclusions.
+
+Do not show a package duration, inclusion or price until confirmed.
+Do not label an accommodation-only product as a wellness programme.
+
+--------------------------------------------------
+12. BOOKING / ENQUIRY STRATEGY
+--------------------------------------------------
+
+Do NOT build a complex hotel booking engine unless a real system/API is later supplied.
+
+The current model is enquiry-first.
+
+Primary conversion:
+WHATSAPP ENQUIRY
+
+Secondary conversion:
+EMAIL ENQUIRY
+
+The user should be able to enquire about:
+- Stay
+- Wellness programmes
+- Ayurveda packages
+- Monthly stays
+- Availability
+- Number of guests
+- Preferred dates
+- Questions
+
+The website must make it clear that the enquiry will be handled personally.
+
+Do NOT create:
+- Fake availability
+- Fake inventory
+- Fake package availability
+- Fake booking confirmations
+- Fake payment completion
+- Fake real-time calendars
+
+After form submission, only say that the enquiry was received and will be reviewed; never imply the stay is confirmed.
+
+--------------------------------------------------
+13. INTERNATIONAL USER EXPERIENCE
+--------------------------------------------------
+
+Use clear international English.
+
+Explain Ayurveda and local terminology in simple language.
+
+Important practical information must be easy to find, including where appropriate:
+- Exact location
+- Getting here / transport guidance
+- What to expect
+- Stay types
+- Wellness options
+- Enquiry process
+- Contact options
+- What information is needed to plan a stay
+
+WhatsApp must be prominent, but email must always remain available.
+
+Pricing:
+- INR is the authoritative base currency.
+- USD and EUR can be displayed only as indicative conversions.
+- Clearly label conversions as indicative.
+- Do not hard-code stale FX rates without a defined update strategy.
+
+--------------------------------------------------
+14. RESPONSIVE DESIGN
+--------------------------------------------------
+
+Build mobile-first responsive behaviour.
+
+Desktop:
+- Spacious editorial layouts
+- Large photography
+- Split sections
+- Strong typography
+- Controlled cinematic motion
+
+Tablet:
+- Maintain hierarchy
+- Reduce spacing
+- Recompose split layouts when required
+
+Mobile:
+- Do NOT simply shrink desktop
+- Rebuild sections where necessary
+- Keep typography readable
+- Maintain generous spacing
+- Stack content intelligently
+- Keep CTA accessible
+- Keep WhatsApp enquiry easy to access
+- Simplify or remove complex pinned/scroll choreography where it harms usability
+
+--------------------------------------------------
+15. ANIMATION SYSTEM
+--------------------------------------------------
+
+Animation is part of the visual identity, not a separate decoration layer.
+
+PRINCIPLES:
+- Slow, organic, understated
+- Use motion to reveal hierarchy and atmosphere
+- Prefer transform and opacity animation
+- Avoid layout-triggering animation
+- Avoid constant motion
+- Keep essential content readable without animation
+
+SIGNATURE INTERACTIONS:
+1. Cinematic Arunachala hero reveal
+2. Slow foreground/mountain depth movement
+3. Healing journey: BODY → MIND → FOOD → LIFESTYLE → ENVIRONMENT
+4. Living typography for key emotional statements
+5. Farm-to-table visual transition
+6. Choose Your Journey interactive stay/package panels
+7. Subtle magnetic CTA treatment
+8. Full-width property walkthrough transitions
+9. Horizontal experience storytelling section
+10. Day-at-Gold-Mountain timeline with changing light/visual rhythm
+11. Restrained gold thread/divider motion
+12. "Breathing" landscape effect for selected hero/environment imagery
+
+Implementation preference:
+GSAP + ScrollTrigger may be used for sophisticated scroll sequencing when justified. Keep the dependency footprint small and clean up triggers correctly in component lifecycles.
+
+Accessibility:
+Honor @media (prefers-reduced-motion: reduce). Replace non-essential movement with fades/static states. Do not hide essential information behind animation.
+
+Performance:
+- Animate transform/opacity where possible
+- Avoid giant DOM-driven effect stacks
+- Avoid large video backgrounds unless optimized and clearly justified
+- Keep above-the-fold animation lightweight
+- Do not delay meaningful content waiting for an animation
+
+--------------------------------------------------
+16. IMAGE DIRECTION
+--------------------------------------------------
+
+Photography should feel:
+Natural
+Warm
+Quiet
+Authentic
+Premium
+Human
+Cinematic but believable
+
+Prioritize:
+- Arunachala / mountain surroundings
+- Resort architecture
+- Rooms
+- Natural landscape
+- Food
+- Wellness treatment spaces
+- Ayurveda
+- Meditation
+- Gardens
+- Herbal plants
+- Farm
+- Guest experiences
+- Details of the resort
+
+Avoid:
+- Generic spa stock photography
+- Fake luxury interiors
+- Unrealistic AI architecture
+- Excessively posed models
+- Generic Buddha imagery
+- Generic yoga stock images
+- Overly spiritual imagery
+
+Image implementation:
+- Use real approved images wherever available.
+- Provide width/height or aspect-ratio reservations to reduce CLS.
+- Prefer AVIF/WebP where supported, with a practical fallback.
+- Use responsive image sources.
+- Lazy-load below-the-fold images; prioritize the actual LCP hero asset.
+- Every meaningful image needs useful alt text; decorative images should use empty alt text.
+
+--------------------------------------------------
+17. CONTENT & CLAIMS RULE
+--------------------------------------------------
+
+DO NOT INVENT INFORMATION.
+
+Do not invent:
+- Room types
+- Prices
+- Therapies
+- Doctors/practitioners
+- Certifications
+- Awards
+- Facilities
+- Guest numbers
+- Reviews
+- Medical claims
+- Distance claims
+- Package durations
+- Availability
+- Testimonials
+- Founder's achievements
+
+Use:
+[CONTENT TO BE PROVIDED BY CLIENT]
+
+For missing prices:
+[PRICE TO BE PROVIDED]
+
+HEALTH / WELLNESS LANGUAGE:
+Describe practices, experiences and intended wellness context rather than guaranteed health outcomes. Avoid claims to diagnose, cure, treat or prevent disease unless the client supplies substantiation and the wording is professionally reviewed.
+
+--------------------------------------------------
+18. SEO, ACCESSIBILITY & DEVELOPMENT QUALITY
+--------------------------------------------------
+
+Build:
+- Clean component architecture
+- Reusable components
+- Responsive layouts
+- Semantic HTML
+- Accessible buttons and forms
+- Correct heading hierarchy
+- SEO-friendly structure
+- Canonical URLs
+- XML sitemap
+- Robots directives
+- Open Graph metadata
+- Useful page titles/descriptions
+- Descriptive image alt text
+- Breadcrumbs where useful
+- Structured data only when it accurately represents the page/content
+- Accessible navigation
+- Keyboard-friendly interactions
+- Visible focus states
+- No content hidden behind sticky elements
+- Touch targets of at least 24x24 CSS px where applicable
+- WCAG 2.2 AA-minded colour/interaction decisions
+
+Performance target:
+Treat Core Web Vitals as a hard quality gate. Aim for strong real-user performance, especially on mobile networks. Do not trade meaningful performance for decorative animation.
+
+Fonts:
+Use WOFF2 and font-display: swap; avoid unnecessary font weights.
+
+Do not create unnecessary dependencies.
+Do not add functionality that has not been requested.
+Do not redesign the logo.
+Do not introduce another colour direction.
+
+--------------------------------------------------
+19. FORMS & CONTACT SAFETY
+--------------------------------------------------
+
+All enquiry forms need:
+- Proper labels
+- Required-field indication
+- Keyboard access
+- Clear validation messages
+- Useful error states
+- Success state that confirms receipt only
+- Accessible focus management
+- Privacy notice/link where required
+
+Do not expose unverified phone/WhatsApp details.
+Do not claim automated booking confirmation.
+
+--------------------------------------------------
+20. FINAL DESIGN RULE
+--------------------------------------------------
+
+When there is a conflict between:
+MORE CONTENT and BETTER DESIGN
+choose better hierarchy and readability.
+
+When there is a conflict between:
+MORE UI ELEMENTS and SIMPLICITY
+choose simplicity.
+
+When there is a conflict between:
+TRENDY DESIGN and TIMELESS LUXURY
+choose timeless luxury.
+
+When there is a conflict between:
+MORE ANIMATION and CALM EXPERIENCE
+choose the calmer experience.
+
+The final website should feel like:
+A premium wellness resort in nature.
+
+NOT:
+A wellness SaaS website.
+A spa website.
+An Ayurveda clinic.
+A generic hotel template.
+A futuristic glassmorphism website.
+
+FINAL SOURCE-OF-TRUTH:
+Use the exact brand colours and approved logo from the supplied brand identity assets. Use this Master prompt and FINAL_IMPLEMENTATION_GUIDE.txt for implementation decisions when any supplied reference conflicts.

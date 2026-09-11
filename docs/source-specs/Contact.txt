@@ -1,0 +1,83 @@
+BUILD PAGE: CONTACT
+
+PURPOSE:
+Make contacting Gold Mountain extremely easy for international and Indian guests.
+
+--------------------------------------------------
+HERO
+--------------------------------------------------
+Headline:
+Let's plan your stay.
+
+Supporting copy:
+Have a question about staying, wellness programmes or availability? Speak with us directly.
+
+--------------------------------------------------
+CONTACT OPTIONS
+--------------------------------------------------
+WHATSAPP
+Primary CTA — use verified client number only.
+
+EMAIL
+Secondary CTA.
+
+PHONE
+Use verified client number only.
+
+--------------------------------------------------
+ENQUIRY FORM
+--------------------------------------------------
+Keep it simple.
+
+Fields:
+Name *
+Email *
+WhatsApp / Phone
+Preferred arrival date
+Preferred departure date
+Number of guests
+Enquiry type
+Message
+
+Enquiry type options:
+Stay
+Wellness
+Ayurveda
+Monthly Stay
+General Enquiry
+
+CTA:
+Send Enquiry
+
+After submission:
+Show a simple success message that confirms receipt of the enquiry only.
+Do not claim that a booking has been confirmed.
+
+--------------------------------------------------
+LOCATION
+--------------------------------------------------
+Current public listings consistently show the property at:
+No.97, Kotangal Road,
+Adiannamalai,
+Tiruvannamalai,
+Tamil Nadu 606604,
+India
+
+Use Google Maps integration.
+
+EXTERNAL VERIFICATION NOTE (11 Sep 2026):
+Public listings currently show the address above. Client/official-source verification is still required before production publication because third-party listings can change or contain inconsistent spelling.
+
+--------------------------------------------------
+INTERNATIONAL CONTACT
+--------------------------------------------------
+Clearly show:
+WhatsApp
+Email
+
+Do not make WhatsApp the only contact method.
+
+--------------------------------------------------
+ACCESSIBILITY
+--------------------------------------------------
+Use explicit labels, keyboard access, visible focus, clear validation and error messages. Ensure sticky/floating CTA UI does not obscure focused form elements.

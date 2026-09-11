@@ -1,0 +1,24 @@
+CHANGELOG — FINAL FIX PASS (11 Sep 2026)
+
+Fixed:
+1. Resolved brand-vs-architecture colour conflict by locking website colours to the four supplied brand hex values.
+2. Resolved typography conflict: Outfit + The Seasons is the website system; Garet/Aileron presentation treatment is no longer the implementation source.
+3. Corrected the unsafe interpretation of -60% letter spacing.
+4. Standardized navigation and conversion language around Book / Enquire + WhatsApp primary enquiry + Email secondary.
+5. Defined Short Stay / Wellness Stay / Monthly Stay / Wellness Package as distinct products.
+6. Reordered the homepage to better match the strategic architecture priorities.
+7. Standardized blog categories while retaining SEO topics as article/tag subjects.
+8. Added international practical-information requirements.
+9. Tightened health/wellness claims to avoid unsupported medical promises.
+10. Added WCAG-minded contrast, focus, target-size and reduced-motion rules.
+11. Added responsive-image, WOFF2/font-display and performance requirements.
+12. Added a detailed animation system that preserves the brand palette and calm luxury character.
+13. Clarified that the architecture PDF's blue/neon presentation graphics are reference-only.
+14. Updated the public address spelling in Contact to "Kotangal Road" based on current public property listings; client/official verification remains required.
+15. Added final implementation, design-token and pre-launch QA documents.
+
+Not changed:
+- The four requested brand colours.
+- Supplied logo artwork.
+- Brand identity source PDF.
+- Core positioning/content strategy.

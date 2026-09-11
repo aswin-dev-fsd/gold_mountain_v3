@@ -1,0 +1,115 @@
+BUILD PAGE: WELLNESS
+
+PURPOSE:
+Introduce Gold Mountain's wellness philosophy without making the property look like an Ayurveda clinic.
+
+The visitor should understand:
+Wellness here is an experience.
+
+It can include confirmed traditional practices, nourishing food, movement, meditation, nature and lifestyle.
+
+--------------------------------------------------
+HERO
+--------------------------------------------------
+Headline:
+A slower way back to yourself.
+
+Supporting copy:
+Explore traditional wellness practices, nourishing food and quiet spaces designed to help you reconnect with body and mind.
+
+Avoid wording that promises a medical outcome.
+
+CTA:
+Explore Our Wellness
+
+Animation:
+Slow photographic reveal + typography entrance. Keep motion subtle.
+
+--------------------------------------------------
+SECTION 02 — WELLNESS PHILOSOPHY
+--------------------------------------------------
+Explain:
+Gold Mountain brings together traditional wellness practices and the restorative qualities of nature.
+
+Keep copy short.
+Do not make medical claims.
+
+--------------------------------------------------
+SECTION 03 — WELLNESS APPROACH
+--------------------------------------------------
+Create a clean editorial composition containing confirmed topics such as:
+Ayurveda
+Traditional therapies
+Yoga
+Meditation
+Healthy food
+Nature
+Lifestyle
+
+Use minimal line icons only where they clarify meaning.
+Do not make this look like a generic icon-card grid.
+
+--------------------------------------------------
+SECTION 04 — AYURVEDA
+--------------------------------------------------
+Introduce Ayurveda as one important part of the wellness experience.
+
+Headline:
+Traditional wisdom, thoughtfully experienced.
+
+Explain Ayurveda in simple international English without promising diagnosis, cure, prevention or guaranteed results.
+
+Include available therapies/packages only after client confirmation.
+
+CTA:
+Explore Ayurveda
+
+--------------------------------------------------
+SECTION 05 — WELLNESS PHILOSOPHY / HEALING LANGUAGE
+--------------------------------------------------
+Potential themes:
+- Body
+- Mind
+- Food
+- Movement
+- Nature
+- Rest
+
+Use "healing" as the brand's experiential/philosophical language where appropriate, but do not turn it into a medical promise.
+
+If healing crystals are included, present them only as part of the resort's wellness philosophy/experience, not as scientifically proven medical treatment.
+
+--------------------------------------------------
+SECTION 06 — PROGRAMMES / PACKAGES
+--------------------------------------------------
+Display only confirmed structured programmes.
+
+Each package:
+Package name
+Duration
+Short description
+What's included
+Price
+INR
+Indicative USD
+Indicative EUR
+Enquire
+
+Do not invent pricing, durations or inclusions.
+
+If price is missing:
+[PRICE TO BE PROVIDED]
+
+Keep Wellness Packages distinct from Short Stay / Wellness Stay / Monthly Stay accommodation options.
+
+--------------------------------------------------
+SECTION 07 — FINAL CTA
+--------------------------------------------------
+Headline:
+Find the kind of wellness that suits your stay.
+
+CTA:
+Enquire on WhatsApp
+
+Secondary:
+Send an Email

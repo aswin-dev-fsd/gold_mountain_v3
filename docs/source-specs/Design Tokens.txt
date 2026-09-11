@@ -1,0 +1,45 @@
+GOLD MOUNTAIN — DESIGN TOKENS
+
+LOCKED BRAND COLOURS
+--color-ivory: #F7F3EA
+--color-green: #214D33
+--color-gold: #C49A3A
+--color-red: #8F2D24
+
+TYPOGRAPHY
+--font-primary: "Outfit"
+--font-editorial: "The Seasons"
+
+TYPE STARTING POINTS
+H1: 45/60px desktop, -0.03em tracking
+H2: 35/40px desktop, -0.025em tracking
+H3: 25/30px desktop, -0.01em tracking
+Body: 16/24px, 0 tracking
+
+Note: tune responsively; do not implement the brand PDF's -60% tracking literally.
+
+COLOUR ACCESSIBILITY
+Do not use Gold on Ivory for normal body text.
+Do not use Red on Green for normal text.
+Use Green/Red on Ivory or Ivory on Green for readable text combinations.
+
+UI
+- Borders: thin, low-contrast, purpose-driven
+- Shadows: restrained
+- Radius: subtle; do not round every component
+- Buttons: editorial, compact, tactile
+- Icons: minimal line icons only
+
+MOTION
+Default duration range: 180–700ms for UI/reveal interactions.
+Use slower durations only for cinematic imagery where it improves calmness.
+
+MOTION PREFERENCES
+@media (prefers-reduced-motion: reduce) { non-essential motion disabled/reduced }
+
+MEDIA
+- WOFF2 font format
+- font-display: swap
+- responsive images
+- AVIF/WebP preferred
+- reserve image dimensions/aspect ratio

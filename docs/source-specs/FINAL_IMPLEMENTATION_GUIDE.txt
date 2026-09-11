@@ -1,0 +1,327 @@
+GOLD MOUNTAIN WELLNESS RESORT
+FINAL IMPLEMENTATION GUIDE
+Version: 11 September 2026
+
+PURPOSE
+This file resolves conflicts found across the supplied architecture, brand identity and page prompts before website implementation.
+
+==================================================
+1. SOURCE-OF-TRUTH RULES
+==================================================
+
+Brand Identity PDF governs:
+- Logo
+- Approved colours
+- Typography direction
+- Brand personality
+
+Master prompt + this file govern:
+- Website visual system
+- Navigation
+- Product taxonomy
+- Conversion model
+- Animation system
+- Accessibility/performance implementation
+
+Page TXT files govern:
+- Page-specific content and hierarchy
+
+01_ARCHITECTURE_STRATEGY_REFERENCE_ONLY.pdf governs:
+- Strategy and information architecture concepts
+- NOT its presentation-deck colour treatment
+- NOT its Garet/Aileron typography treatment
+
+==================================================
+2. FINAL BRAND SYSTEM
+==================================================
+
+COLOURS — LOCKED
+Ivory  #F7F3EA
+Green  #214D33
+Gold   #C49A3A
+Red    #8F2D24
+
+Do not change any of these values.
+
+Recommended role assignment:
+Ivory — background / negative space
+Green — primary text / navigation / major sections / primary button backgrounds
+Gold — accent / divider / logo detail / selective display emphasis
+Red — rare supporting accent
+
+Accessibility constraints:
+- Gold on Ivory is not sufficient for normal body text; do not use that combination for small text.
+- Red on Green is not sufficient for normal text; do not use that combination.
+- Use Green/Red on Ivory or Ivory on Green for primary readable text combinations.
+
+TYPE
+Primary: Outfit (brand guide label: "Outfit (Garet Alf)")
+Secondary/editorial: The Seasons
+
+Do not use Garet Sans as a separate substitute.
+Do not implement "-60%" tracking literally.
+Starting CSS tracking recommendations:
+H1 -0.03em
+H2 -0.025em
+H3 -0.01em
+Body 0
+
+==================================================
+3. FINAL NAVIGATION
+==================================================
+
+Home
+Wellness
+Stay
+Experience
+About
+Blog
+Contact
+
+Global CTA: Book / Enquire
+
+Conversion priority inside the website:
+1. WhatsApp enquiry
+2. Email enquiry
+3. Verified phone
+
+Do not add Gallery as a primary navigation item.
+
+==================================================
+4. FINAL PRODUCT TAXONOMY
+==================================================
+
+SHORT STAY
+Flexible accommodation.
+
+WELLNESS STAY
+Accommodation + flexible confirmed wellness experiences.
+
+MONTHLY STAY
+Longer accommodation stay.
+
+WELLNESS PACKAGE
+Structured programme with confirmed duration/inclusions.
+
+Never merge these into one generic "package" concept.
+
+==================================================
+5. FINAL HOMEPAGE FLOW
+==================================================
+
+Hero
+→ Wellness
+→ Arunachala / Location
+→ Dining / Nourishment
+→ Resort / Place
+→ Experience
+→ Stay
+→ Trust
+→ Blog
+→ Book / Enquire
+
+This order better reflects the architecture's stated strategic priority while reducing unnecessary repetition.
+
+==================================================
+6. ANIMATION BLUEPRINT
+==================================================
+
+A. HERO — "ARRIVAL"
+- Full-bleed real resort/landscape image
+- Soft reveal mask
+- Slow depth separation between foreground and background
+- Headline enters after image settles
+- Gold divider draws lightly
+- CTA appears last
+- No artificial loading screen
+
+B. WELLNESS — "HEALING JOURNEY"
+- Scroll-driven progression: BODY → MIND → FOOD → LIFESTYLE → ENVIRONMENT
+- Use pinned composition only where desktop usability remains clear
+- Mobile becomes sequential stacked sections
+
+C. ARUNACHALA — "PRESENCE"
+- Almost-static mountain
+- Very small foreground movement
+- Optional mist/light movement where source footage supports it
+- Avoid aggressive zooms
+
+D. DINING — "LAND TO TABLE"
+- Farm image transitions to produce/garden/kitchen/table
+- Prefer image masking and controlled horizontal motion over many cards
+
+E. EXPERIENCE — "DISCOVERY"
+- Horizontal storytelling rail on desktop
+- Standard vertical storytelling on mobile
+- Hover/active state reveals secondary information
+- Keyboard alternative required if interaction uses dragging
+
+F. STAY — "CHOOSE YOUR JOURNEY"
+- Short Stay / Wellness Stay / Monthly Stay as distinct choices
+- Hover or tap expands a panel with confirmed details
+- Never animate unavailable price/inventory data
+
+G. DAY TIMELINE — "A DAY AT GOLD MOUNTAIN"
+- Optional homepage or experience module
+- Scroll changes time-of-day visuals
+- Keep text readable without animation
+
+H. CTA MICRO-INTERACTIONS
+- 2–6 px hover translation or subtle underline draw
+- Avoid exaggerated magnetic effects on small-screen touch devices
+
+I. SITE-WIDE TRANSITIONS
+- Mostly opacity + translate + clip-path/image reveal
+- Avoid animating layout properties repeatedly
+- Avoid perpetual floating objects
+
+==================================================
+7. MOTION ACCESSIBILITY
+==================================================
+
+Implement:
+@media (prefers-reduced-motion: reduce)
+
+For reduced motion:
+- Disable large parallax
+- Disable large scale/pan effects
+- Remove non-essential looping motion
+- Replace timeline movement with static states/fades
+- Keep essential content visible
+
+Never make information inaccessible because animation is disabled.
+
+==================================================
+8. PERFORMANCE GATES
+==================================================
+
+Images:
+- Use responsive sources
+- Prefer AVIF/WebP with fallback
+- Reserve dimensions/aspect ratios
+- Prioritize actual LCP hero asset
+- Lazy-load below-fold images
+
+Fonts:
+- WOFF2
+- font-display: swap
+- Load only required weights
+- Avoid unnecessary third-party font requests
+
+Animation:
+- Prefer transform/opacity
+- Avoid forced synchronous layout patterns
+- Avoid heavy video backgrounds
+- Keep JS bundles focused
+- Clean up scroll triggers/listeners on component unmount
+
+Quality target:
+Treat strong Core Web Vitals and mobile performance as launch requirements.
+
+==================================================
+9. ACCESSIBILITY GATES
+==================================================
+
+Target WCAG 2.2 AA quality.
+
+Required checks:
+- Keyboard navigation works
+- Focus is clearly visible
+- Focus is not hidden by sticky/floating elements
+- Interactive targets are at least 24x24 CSS px where applicable
+- Heading hierarchy is logical
+- Forms have explicit labels
+- Error messages are understandable
+- Decorative images have empty alt text
+- Meaningful images have useful alt text
+- No colour-only communication
+- Reduced motion is respected
+
+==================================================
+10. CONTENT / CLAIMS GATES
+==================================================
+
+Never invent:
+rooms, prices, package durations, inclusions, practitioners, certifications, awards, testimonials, ratings, medical claims, facilities, distance claims, availability or founder achievements.
+
+Use placeholders:
+[CONTENT TO BE PROVIDED BY CLIENT]
+[PRICE TO BE PROVIDED]
+
+Use wellness/experience language rather than guaranteed medical outcomes.
+
+==================================================
+11. INTERNATIONAL UX GATES
+==================================================
+
+Ensure visitors can quickly answer:
+- What is Gold Mountain?
+- Why should I stay here?
+- What is the wellness offering?
+- What is the difference between a stay and a wellness package?
+- Where is it?
+- How do I get there?
+- What happens after I enquire?
+- Who do I contact?
+
+Do not assume local terminology is understood.
+
+==================================================
+12. FINAL QA CHECKLIST
+==================================================
+
+Brand:
+[ ] Exact four approved colours only
+[ ] Approved logo only
+[ ] Outfit + The Seasons
+[ ] No Garet/Aileron substitution
+[ ] No blue/neon deck styling
+
+IA:
+[ ] Navigation matches final structure
+[ ] Book/Enquire is the global CTA
+[ ] Product taxonomy is consistent
+[ ] Blog categories are consistent
+
+Content:
+[ ] No invented facts
+[ ] No fake availability
+[ ] No fake reviews
+[ ] Claims reviewed
+[ ] Prices marked as confirmed/indicative appropriately
+
+UX:
+[ ] International visitor questions are answered
+[ ] Getting-here information exists or is clearly planned
+[ ] Enquiry process is obvious
+
+Motion:
+[ ] Signature animations implemented selectively
+[ ] Reduced-motion mode works
+[ ] Mobile motion simplified
+[ ] No animation blocks content
+
+Performance:
+[ ] Hero optimized
+[ ] Responsive images
+[ ] WOFF2 + swap
+[ ] No unnecessary dependencies
+[ ] Scroll triggers cleaned up
+
+Accessibility:
+[ ] Keyboard tested
+[ ] Focus tested
+[ ] Contrast tested
+[ ] Target sizes tested
+[ ] Form labels/errors tested
+
+==================================================
+13. EXTERNAL VERIFICATION USED FOR THIS FIX PASS
+==================================================
+
+- W3C WCAG 2.2: contrast, focus visibility/obscuration and minimum target-size guidance were checked.
+- MDN: font-display, web-font performance and prefers-reduced-motion guidance were checked.
+- GSAP official documentation: ScrollTrigger supports scroll-triggered sequencing, scrub and pinning; React cleanup should be handled correctly.
+- Public 2026 property listings were checked for the supplied address; the package keeps client verification as the final authority.
+
+This guide is an implementation specification, not a replacement for the supplied brand identity PDF.

@@ -1,0 +1,114 @@
+GOLD MOUNTAIN — ANIMATION & INTERACTION BLUEPRINT
+
+Animation goal:
+Make the website feel alive, cinematic and distinctive without breaking the calm premium wellness character.
+
+COLOUR RULE — LOCKED
+All animation accents must use only:
+Ivory #F7F3EA
+Green #214D33
+Gold #C49A3A
+Red #8F2D24
+
+Never add neon/blue/glow-heavy presentation colours.
+
+1. HERO — CINEMATIC ARRIVAL
+- Real Arunachala/resort image
+- Soft clip/mask reveal
+- 1.00 → 1.015 slow scale range only where comfortable
+- Foreground/background depth separation
+- Heading reveal: opacity + 12–24px translate
+- Gold divider draws after heading
+- CTAs appear last
+- No long blocking preloader
+
+2. WELLNESS — FIVE-PILLAR JOURNEY
+Scroll sequence:
+BODY → MIND → FOOD → LIFESTYLE → ENVIRONMENT
+
+Desktop:
+- Controlled pin/scroll sequence
+- One dominant visual
+- Pillar labels transition smoothly
+
+Mobile:
+- No mandatory pinning
+- Stack sections vertically
+- Same narrative order
+
+3. ARUNACHALA — LIVING LANDSCAPE
+- Mountain remains stable
+- Foreground foliage gets very low-amplitude movement
+- Optional haze/light drift
+- No dramatic zoom
+
+4. FARM → TABLE
+- Farm image
+- Produce close-up
+- Herbal garden detail
+- Dining image
+- Use mask/wipe transitions
+
+5. EXPERIENCE DISCOVERY
+Three editorial experience groups:
+Sacred & Spiritual
+Nature & Farm Life
+Healing Environment
+
+Interaction:
+- Active item grows subtly
+- Secondary content fades in
+- Large photographic movement
+- Keyboard and touch alternatives required
+
+6. CHOOSE YOUR JOURNEY
+Short Stay / Wellness Stay / Monthly Stay
+
+Use large typographic panels rather than dense cards.
+On hover/tap:
+- image shifts 4–12px
+- panel expands
+- details reveal
+- CTA becomes prominent
+
+7. DAY AT GOLD MOUNTAIN
+Optional signature section.
+Timeline changes from morning to evening as the user scrolls.
+Use lighting/image transitions, not a giant animated clock.
+
+8. CTA MICRO-INTERACTION
+Primary buttons:
+- subtle underline draw
+- 2–6px movement
+- arrow shift
+- no oversized cursor games on mobile
+
+9. IMAGE REVEALS
+Use:
+- clip-path
+- opacity
+- translate
+- masked reveals
+
+Avoid repeatedly animating width/height/top/left when transform can achieve the same visual.
+
+10. RED ACCENT
+Red is rare. Use only for intentional supporting highlights or small decorative moments. Do not turn the interface into a red theme.
+
+11. REDUCED MOTION
+Respect prefers-reduced-motion.
+Replace:
+- large parallax → static image
+- large scale → fade
+- pinned choreography → sequential static sections
+- looping ambient movement → static state
+
+12. PERFORMANCE RULE
+Animation must never prevent the user from reading or reaching important content. Above-the-fold content should render quickly. Use real assets, optimized images and small targeted animation code.
+
+13. RECOMMENDED IMPLEMENTATION
+CSS transitions for simple UI interactions.
+GSAP + ScrollTrigger for advanced scroll choreography.
+Use scoped component cleanup in frameworks such as React.
+
+Animation should communicate calm, depth, place and discovery — never "look at this effect".

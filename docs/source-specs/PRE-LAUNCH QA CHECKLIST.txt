@@ -1,0 +1,67 @@
+GOLD MOUNTAIN — PRE-LAUNCH QA CHECKLIST
+
+BRAND
+[ ] #F7F3EA used for ivory
+[ ] #214D33 used for green
+[ ] #C49A3A used for gold
+[ ] #8F2D24 used for red
+[ ] No alternate palette introduced
+[ ] Approved logo unchanged
+[ ] Outfit + The Seasons loaded/licensed
+
+IA
+[ ] Home / Wellness / Stay / Experience / About / Blog / Contact
+[ ] Book / Enquire is the global CTA
+[ ] Gallery not in primary navigation
+[ ] Stay/package taxonomy is clear
+
+CONTENT
+[ ] No invented information
+[ ] Missing content uses placeholders
+[ ] Medical/health claims reviewed
+[ ] Testimonials/ratings verified
+[ ] Prices verified
+[ ] Address verified against client/official source
+
+ANIMATION
+[ ] Hero reveal works
+[ ] Wellness journey works
+[ ] Landscape motion is subtle
+[ ] Mobile animations are simplified
+[ ] prefers-reduced-motion works
+[ ] Animation does not hide content
+[ ] No perpetual decorative motion
+
+ACCESSIBILITY
+[ ] Keyboard-only test completed
+[ ] Focus visible
+[ ] Sticky UI does not obscure focus
+[ ] Labels and form errors accessible
+[ ] 24x24 minimum pointer target rule checked
+[ ] Text contrast checked
+[ ] Colour is not the only information cue
+
+PERFORMANCE
+[ ] Hero/LCP image optimized
+[ ] Below-fold images lazy-loaded
+[ ] Width/height or aspect-ratio reserved
+[ ] WOFF2 + font-display: swap
+[ ] Unnecessary animation dependencies removed
+[ ] Scroll listeners/GSAP triggers cleaned up
+
+SEO
+[ ] Unique title + meta description per indexable page
+[ ] Canonical URLs
+[ ] Sitemap
+[ ] Robots directives
+[ ] Open Graph image/title/description
+[ ] Structured data accurate and page-specific
+[ ] Descriptive alt text
+
+FORMS
+[ ] Required fields indicated
+[ ] Errors are understandable
+[ ] Success message says enquiry received, not booking confirmed
+[ ] WhatsApp primary contact works
+[ ] Email alternative works
+[ ] Phone only if client-verified

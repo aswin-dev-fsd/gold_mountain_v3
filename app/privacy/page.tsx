@@ -1,0 +1,2 @@
+import type { Metadata } from "next";
+export const metadata: Metadata = { title: "Privacy Policy", alternates: { canonical: "/privacy" } }; export default function Privacy(){return <section className="section" style={{paddingTop:150}}><div className="container narrow"><div className="section-label">Privacy</div><h1 className="display">Privacy Policy</h1><p className="lede" style={{marginTop:20}}>[PRIVACY POLICY TO BE PROVIDED BY CLIENT]</p><p className="small-note" style={{marginTop:12}}>This placeholder is intentionally not a legal policy.</p></div></section>;}

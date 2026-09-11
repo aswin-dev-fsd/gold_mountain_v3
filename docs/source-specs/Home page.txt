@@ -1,0 +1,225 @@
+BUILD PAGE: HOME
+
+PURPOSE:
+The homepage is the primary storytelling page. Its job is to create desire, communicate positioning and guide the visitor toward Wellness, Stay, Experience and Enquiry.
+
+CANONICAL INFORMATION HIERARCHY:
+1. HERO
+2. WELLNESS
+3. LOCATION / ARUNACHALA
+4. DINING / NOURISHMENT
+5. RESORT / PLACE
+6. EXPERIENCE
+7. STAY
+8. TRUST
+9. BLOG
+10. BOOK / ENQUIRE
+
+--------------------------------------------------
+SECTION 01 — HERO
+--------------------------------------------------
+Use a full-width immersive image of the actual resort/nature/mountain surroundings.
+
+Headline direction:
+A Wellness Stay
+in the Presence of Arunachala.
+
+Supporting copy:
+A peaceful resort where traditional wellness, healthy food and nature come together.
+
+Primary CTA:
+Explore Wellness
+
+Secondary CTA:
+Plan Your Stay
+
+Do not overcrowd the hero.
+Use the approved logo in the navigation.
+
+Animation:
+Slow image reveal + subtle depth movement + restrained headline/CTA reveal. No loud effects. Keep initial content visible quickly.
+
+--------------------------------------------------
+SECTION 02 — WELLNESS
+--------------------------------------------------
+This is the strongest section after the hero.
+
+Headline:
+Wellness, in its own time.
+
+Include only client-confirmed offerings. Candidate themes:
+- Ayurveda
+- Traditional therapies
+- Yoga
+- Meditation
+- Healthy food
+- Nature
+- Lifestyle
+
+Avoid clinical/guaranteed health claims.
+
+CTA:
+Explore Wellness
+
+Animation:
+A calm scroll-led BODY → MIND → FOOD → LIFESTYLE → ENVIRONMENT sequence may be used.
+
+--------------------------------------------------
+SECTION 03 — LOCATION / ARUNACHALA
+--------------------------------------------------
+Headline direction:
+In the presence of Arunachala.
+
+Explain only confirmed geography and relationship to Tiruvannamalai.
+Do not exaggerate views or distance.
+
+Use a map/location visual where appropriate.
+
+Animation:
+Slow landscape depth/mist/foreground movement; reduced-motion fallback is static imagery.
+
+--------------------------------------------------
+SECTION 04 — DINING / NOURISHMENT
+--------------------------------------------------
+Headline:
+Food that nourishes.
+
+Position food as part of the wellness experience without unsupported medical claims.
+
+Use actual food photography.
+
+CTA:
+Discover Dining
+
+Animation:
+Farm → Garden → Kitchen → Table visual progression where real assets support it.
+
+--------------------------------------------------
+SECTION 05 — THE RESORT
+--------------------------------------------------
+Introduce Gold Mountain as a resort first.
+
+Headline direction:
+Stay close to nature.
+Stay close to yourself.
+
+Show only real/approved property imagery:
+- Architecture
+- Rooms
+- Gardens
+- Common spaces
+- Natural surroundings
+
+CTA:
+Explore the Resort
+
+--------------------------------------------------
+SECTION 06 — EXPERIENCE
+--------------------------------------------------
+Introduce unique experiences only after client confirmation.
+
+Potential areas:
+- Shiva Shakthi Darshanam
+- Cow shelter
+- Fish pond
+- Five-element philosophy
+- Farm-grown vegetables
+- Herbal garden
+
+Headline:
+More than a stay.
+
+Supporting idea:
+A place shaped by nature, tradition and a deeper connection to the surroundings.
+
+CTA:
+Explore the Experience
+
+Animation:
+Editorial horizontal or guided-scroll storytelling; do not turn every item into an animated card.
+
+--------------------------------------------------
+SECTION 07 — STAY
+--------------------------------------------------
+Show confirmed accommodation categories only.
+
+Each item:
+- Image
+- Room name
+- Short description
+- Key amenities if confirmed
+- Enquire / View Stay
+
+Do not show fake prices or availability.
+
+Use the taxonomy defined in the Master prompt. Do not mix Wellness Packages with room categories.
+
+--------------------------------------------------
+SECTION 08 — TRUST
+--------------------------------------------------
+Use genuine information only:
+- Confirmed testimonials
+- Confirmed guest feedback
+- Founder/practitioners where client-approved
+- Genuine ratings if verified
+- Real photography
+
+Never fabricate testimonials, statistics or credentials.
+
+--------------------------------------------------
+SECTION 09 — BLOG
+--------------------------------------------------
+Use BLOG instead of GALLERY.
+
+Show up to 3 featured articles.
+Use the canonical categories:
+- Wellness
+- Ayurveda
+- Food
+- Nature
+- Arunachala
+- Life at Gold Mountain
+
+SEO topics such as Tiruvannamalai travel can be used as article topics/tags without forcing a second category taxonomy.
+
+Do not create fake articles. Use clearly marked placeholders until real articles exist.
+
+--------------------------------------------------
+SECTION 10 — FINAL CTA
+--------------------------------------------------
+Headline:
+Your time at Gold Mountain begins here.
+
+Supporting text:
+Plan your stay, explore our wellness offerings or simply speak with us.
+
+Primary CTA:
+WhatsApp Us
+
+Secondary CTA:
+Send an Enquiry
+
+Email must remain clearly available.
+
+--------------------------------------------------
+FOOTER
+--------------------------------------------------
+Include:
+Logo
+Short brand description
+Navigation
+Wellness
+Stay
+Experience
+About
+Blog
+Contact
+WhatsApp
+Email
+Address
+Google Maps
+Social links
+Privacy Policy
+Terms & Conditions
+
+Keep footer minimal.
